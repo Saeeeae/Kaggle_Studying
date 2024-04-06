@@ -1,6 +1,13 @@
 # ignore all .class files
 *.class
 
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+**/input
+
 # exclude lib.class from "*.class", meaning all lib.class are still tracked
 !lib.class
 
